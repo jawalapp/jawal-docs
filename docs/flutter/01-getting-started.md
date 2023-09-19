@@ -7,7 +7,7 @@ The Jawal flutter SDK is available through [pub.dev](https://pub.dev/). To insta
 
 ```yaml
 dependencies:
-  jawal_flutter: ^1.0.3
+  jawal_flutter: ^1.0.4
 ```
 
 Once you have added the dependency, you can import the SDK into your project:
