@@ -10,12 +10,15 @@ npm install jawal-js
 
 ```js
 import { getJawal } from "jawal-js";
+//you can import the css file if you're using webpack
+import "jawal-js/dist/style.css";
 ```
 
 If you're not using a bundler, you can include the library from a CDN:
 
 ```html
-<script src="https://cdn.yastack.app/v0.0.4/jawal-js.min.js"></script>
+<script src="https://cdn.yastack.app/v0.0.4/jawal-js.umd.cjs" type="application/javascript"></script>
+<link rel="stylesheet" href="https://cdn.yastack.app/v0.0.4/style.css" />
 ```
 
 And then you can access the library from the `window` object:
