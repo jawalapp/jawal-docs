@@ -15,7 +15,7 @@ import { getJawal } from "jawal-js";
 If you're not using a bundler, you can include the library from a CDN:
 
 ```html
-<script src="https://cdn.yastack.app/v0.0.3/jawal-js.min.js"></script>
+<script src="https://cdn.yastack.app/v0.0.4/jawal-js.min.js"></script>
 ```
 
 And then you can access the library from the `window` object:
