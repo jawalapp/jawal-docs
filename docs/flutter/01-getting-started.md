@@ -1,6 +1,5 @@
 # Getting Started
 
-
 ## Installation
 
 The Jawal flutter SDK is available through [pub.dev](https://pub.dev/). To install it, simply add the following line to your `pubspec.yaml` file:
@@ -25,6 +24,9 @@ JawalConfig config = JawalConfig(
     apiKey: "YOUR_API_KEY",
     userId: "USER_UNIQUE_ID", 
     userDescription: "USER_DESCRIPTION", // Optional
+    distanceFilter: 50, // Optional
+    enableBackgroundTracking: true, // Optional
+    interval: 1000, // Optional (android only)
     onInitResult: (InitResultEvent event) {
         if(event.isSuceessful) {
             /// SDK is initialized successfully

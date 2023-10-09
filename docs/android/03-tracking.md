@@ -26,3 +26,6 @@ Simply call the `Jawal.stopTracking()` method to stop tracking the user's locati
 ```java
 Jawal.stopTracking()
 ```
+
+!!! info
+    The SDK will automatically start tracking after initialization, so you don't need to call `Jawal.startTracking()` after app restarts.

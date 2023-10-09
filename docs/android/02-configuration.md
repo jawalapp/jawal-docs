@@ -26,7 +26,19 @@ JawalConfig.Builder()
 
 This method allows you to set a description for the user to identify them in the dashboard, for example, their name. The default value is `null`.
 
-### `setTrackingDistance()`
+### `setTrackingInterval()`
+
+```java
+JawalConfig.Builder()
+    ...
+    .setTrackingInterval(1000)
+    .build();
+```
+
+This method allows you to set the interval between location updates in milliseconds. The default value is `1000` (1 second).
+
+
+### `setDistanceFilter()`
 
 ```java
 JawalConfig.Builder()
@@ -35,18 +47,18 @@ JawalConfig.Builder()
     .build();
 ```
 
-This method allows you to set the minimum distance the user must travel before their location is tracked. The default value is `10` (10 meters).
+This method allows you to set the minimum distance the user must travel before their location is tracked. The default value is `50` (50 meters).
 
-### `enableBackgroundTracking()`
+### `setEnableBackgroundTracking()`
 
 ```java
 JawalConfig.Builder()
     ...
-    .enableBackgroundTracking(true)
+    .setEnableBackgroundTracking(true)
     .build();
 ```
 
-Enable the background tracking service. The default value is `false`.
+Enable the background tracking service. The default value is `true`.
 
 !!! warning
     Enabling background tracking will cause the SDK to track the user's location even when the app is in the background. Make sure that you have the [necessary permissions](https://developer.android.com/training/location/background) to do this.

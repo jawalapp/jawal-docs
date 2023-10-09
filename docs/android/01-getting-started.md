@@ -16,7 +16,7 @@ repositories {
 ```groovy
 dependencies {
     ...
-    implementation 'com.yastack:jawal:0.0.1'
+    implementation 'com.yastack:jawal:0.0.4'
 }
 ```
 

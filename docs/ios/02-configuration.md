@@ -15,9 +15,9 @@ A unique identifier for the user in the project (for example, a user ID from you
 
 A description for the user to identify them in the dashboard, for example, their name.
 
-## tracking_distance (optional)
+## distanceFilter (optional)
 
-The minimum distance the user must travel before their location is tracked. The default value is `10` (10 meters).
+The minimum distance the user must travel before their location is tracked. The default value is `50` (50 meters).
 
 ## enable_background_tracking (optional)
 
